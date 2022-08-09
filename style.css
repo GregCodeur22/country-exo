@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.filter-container {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  input {
+    margin: 20px auto;
+    display: block;
+    font-size: 1.4rem;
+    text-align: center;
+    transition: 0.2s;
+  }
+  input:focus {
+    border-radius: 30px;
+    background: rgb(238, 238, 238);
+  }
+  .range-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  input[type="range"] {
+    width: 250px;
+    margin: 0 10px 10px 0;
+  }
+  .range-container span {
+    font-size: 1.2rem;
+    transform: translateY(-3px);
+  }
+  .countries-container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .card{
+    flex: 1 0 20%;
+    min-width: 220px;
+    background: rgb(20, 20, 20);
+    margin: 5px;
+    color: rgba(255, 255, 255, 0.708);
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  img{
+    height: 5rem;
+    object-fit: cover;
+  }
